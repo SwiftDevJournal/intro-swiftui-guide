@@ -50,7 +50,7 @@ You should see a checkbox to create a git repository for the project. Creating a
 
 The following screenshot shows the initial files for a multiplatform app project:
 
-![ProjectNavigatorNewProject](images/ProjectNavigtorAtStart.png)
+![ProjectNavigatorNewProject](images/ProjectNavigatorAtStart.png)
 
 The Shared folder contains files that will be used in both the iOS and Mac apps. You might be wondering where you should place files that will be used for only one of the Mac apps. The multiplatform document app template includes iOS and Mac folders. You will have to create your own groups in Xcode. Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group. Create one group for the iOS app and another for the Mac app.
 
