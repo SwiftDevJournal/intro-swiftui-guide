@@ -10,7 +10,7 @@ To follow this guide you must install Xcode 12 or above. Xcode 12.4 requires a M
 
 You can install the latest version of Xcode from the Mac App Store. The latest version of Xcode may require the latest version of macOS.
 
-To get an older version of Xcode, go to Apple's [Downloads and Resources page](https://developer.apple.com/xcode/resources/) . The site [Xcode Releases](https://xcodereleases.com) has direct download links for every version of Xcode Apple has ever released.
+To get an older version of Xcode, go to Apple's [Downloads and Resources page](https://developer.apple.com/xcode/resources/). The site [Xcode Releases](https://xcodereleases.com) has direct download links for every version of Xcode Apple has ever released.
 
 ## The App Store says I don't have enough space to install Xcode, but I do. How do I fix this?
 
