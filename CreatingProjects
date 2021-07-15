@@ -6,7 +6,7 @@ The first step to creating a SwiftUI app is to create a project in Xcode. This s
 
 In Xcode choose File > New > Project to create a new project. The New Project Assistant opens.
 
-// Show image of the first step in creating a project
+![NewProjectAssistantStep1](images/CreateProjectStep1.png)
 
 The first step in choosing a project template. At the top of the New Project Assistant are a series of buttons representing the various platforms. The Multiplatform section is for creating SwiftUI apps that run on iOS and Mac. Selecting a platform shows the available projects you can create for that platform. You're going to be creating application projects in this guide.
 
@@ -16,7 +16,7 @@ Click on the Mulitplatform button at the top of the New Project Assistant. Selec
 
 ## Step 2: Choose Project Options
 
-// Show a screenshot of the second step.
+![NewProjectAssistantStep2](images/CreateProjectStep2.png)
 
 Enter the name of the project in the Product Name text field. The project name is also the name of the app.
 
@@ -40,7 +40,7 @@ Selecting the Include Tests adds unit testing targets to the project. This guide
 
 Click the Next button to move on to the final step.
 
-## Step 3: Choose a 
+## Step 3: Choose a Location to Save
 
 The last step is to choose a location to save your project. Click the Create button to finish creating the project.
 
@@ -50,7 +50,7 @@ You should see a checkbox to create a git repository for the project. Creating a
 
 The following screenshot shows the initial files for a multiplatform app project:
 
-// Screenshot of project navigator at start of creating a multiplatform app project that doesn't use Core Data
+![ProjectNavigatorNewProject](images/ProjectNavigtorAtStart.png)
 
 The Shared folder contains files that will be used in both the iOS and Mac apps. You might be wondering where you should place files that will be used for only one of the Mac apps. The multiplatform document app template includes iOS and Mac folders. You will have to create your own groups in Xcode. Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group. Create one group for the iOS app and another for the Mac app.
 
