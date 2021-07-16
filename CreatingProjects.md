@@ -87,3 +87,13 @@ You may want to add your own groups to keep your project files organized. If you
 To add a group, select the parent file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group. If you were adding iOS and Mac groups, you would select the project file as the parent. If you were adding a Networking folder, you would select the Shared folder.
 
 If the group you create is in the wrong position, drag it to the desired location.
+
+## Build and Run the Project
+
+Either click the Run (Play) button in the project window toolbar or choose Product > Run to build and run your project.
+
+Multiplatform SwiftUI apps have two app targets, iOS and Mac, so you must choose the app you want to run. There is a jump bar in the project window toolbar.
+
+![XcodeJumpBar](images/XcodeJumpBar.png)
+
+Click on the left item in the jump bar to choose the app to run. iOS apps require you to make a second decision. Do you want to run the app in the simulator or on an iOS device? Click on the right jump bar item and choose a simulator or connect an iOS device to your Mac and choose the device.
