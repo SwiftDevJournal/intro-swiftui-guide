@@ -80,9 +80,10 @@ Let's take another look at the project navigator screenshot for a newly created 
 
 ![ProjectNavigatorNewProject](images/ProjectNavigatorAtStart.png)
 
-The Shared folder contains files that will be used in both the iOS and Mac apps. You might be wondering where you should place files that will be used for only one of the Mac apps. The multiplatform document app template includes iOS and Mac folders. You will have to create your own groups in Xcode. Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group. Create one group for the iOS app and another for the Mac app.
+The folders inside the project file are examples of Xcode groups. The Shared folder contains files that will be used in both the iOS and Mac apps in a multiplatform app. The two Tests folder hold files for the test targets, which are usually unit test class files.
 
-Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group.
+You may want to add your own groups to keep your project files organized. If you are developing a multiplatform SwiftUI app, you will need iOS and Mac groups to store files that belong to only one of the app targets. You may want to create a Views group to store your SwiftUI views or a Networking group to store your networking code. 
 
+To add a group, select the parent file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group. If you were adding iOS and Mac groups, you would select the project file as the parent. If you were adding a Networking folder, you would select the Shared folder.
 
-
+If the group you create is in the wrong position, drag it to the desired location.
