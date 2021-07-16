@@ -56,9 +56,27 @@ The Shared folder contains files that will be used in both the iOS and Mac apps.
 
 Xcode creates an app file and a content view when you create a new project.
 
-## Adding a Group to the Project Navigator
+### Adding Files to the Project
+
+If you are making a really simple app, you can stick with the files Xcode creates when you create a new project. But  eventually you're going to add new files to your project.
+
+Choose File > New > File or hold down the Command key and press N to create a new file and add it to your project. When you tell Xcode to create a file, the New File Assistant opens.
+
+![NewFileAssistantStep1](images/CreateFileStep1.png)
+
+When creating SwiftUI apps, the two files you are most likely to create are Swift files and SwiftUI views. Swift files and SwiftUI view files are the same on iOS and Mac. Click the Next button to move to the next step.
+
+![NewFileAssistantStep2](images/CreateFileStep2.png)
+
+Choose a location to save the file and click the Create button to finish creating the file.
+
+In the screenshot you will see a list of targets to add the target. This target list is important if you're developing a multiplatform SwiftUI. You have to decide if you want the file to be part of the iOS app, the Mac app, or both. The only files that should be added to unit test targets are unit test case classes and UI test case classes.
+
+If you make a mistake with target membership, select the file from the project navigator on the left side of the project window. Open the file inspector on the right side of the project window by choosing View > Inspectors > File. The file inspector has target membership checkboxes for you to either add a file to a target or remove a file from a target.
+
+### Adding a Group to the Project Navigator
 
 Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group.
 
-## Adding Files to the Project
+
 
