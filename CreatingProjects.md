@@ -52,7 +52,7 @@ The following screenshot shows the initial files for a multiplatform app project
 
 ![ProjectNavigatorNewProject](images/ProjectNavigatorAtStart.png)
 
-The Shared folder contains files that will be used in both the iOS and Mac apps. You might be wondering where you should place files that will be used for only one of the Mac apps. The multiplatform document app template includes iOS and Mac folders. You will have to create your own groups in Xcode. Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group. Create one group for the iOS app and another for the Mac app.
+
 
 Xcode creates an app file and a content view when you create a new project.
 
@@ -75,6 +75,12 @@ In the screenshot you will see a list of targets to add the target. This target 
 If you make a mistake with target membership, select the file from the project navigator on the left side of the project window. Open the file inspector on the right side of the project window by choosing View > Inspectors > File. The file inspector has target membership checkboxes for you to either add a file to a target or remove a file from a target.
 
 ### Adding a Group to the Project Navigator
+
+Let's take another look at the project navigator screenshot for a newly created project.
+
+![ProjectNavigatorNewProject](images/ProjectNavigatorAtStart.png)
+
+The Shared folder contains files that will be used in both the iOS and Mac apps. You might be wondering where you should place files that will be used for only one of the Mac apps. The multiplatform document app template includes iOS and Mac folders. You will have to create your own groups in Xcode. Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group. Create one group for the iOS app and another for the Mac app.
 
 Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group.
 
