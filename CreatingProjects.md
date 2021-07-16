@@ -52,9 +52,9 @@ The following screenshot shows the initial files for a multiplatform app project
 
 ![ProjectNavigatorNewProject](images/ProjectNavigatorAtStart.png)
 
+The most interesting file is the `ContentView` file. It contains the SwiftUI view.
 
-
-Xcode creates an app file and a content view when you create a new project.
+The Assets folder is where you place icons and any other graphics your app needs.
 
 ### Adding Files to the Project
 
@@ -65,8 +65,6 @@ Choose File > New > File or hold down the Command key and press N to create a ne
 ![NewFileAssistantStep1](images/CreateFileStep1.png)
 
 When creating SwiftUI apps, the two files you are most likely to create are Swift files and SwiftUI views. Swift files and SwiftUI view files are the same on iOS and Mac. Click the Next button to move to the next step.
-
-![NewFileAssistantStep2](images/CreateFileStep2.png)
 
 Choose a location to save the file and click the Create button to finish creating the file.
 
