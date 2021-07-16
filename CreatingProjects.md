@@ -66,6 +66,8 @@ Choose File > New > File or hold down the Command key and press N to create a ne
 
 When creating SwiftUI apps, the two files you are most likely to create are Swift files and SwiftUI views. Swift files and SwiftUI view files are the same on iOS and Mac. Click the Next button to move to the next step.
 
+![NewFileAssistantStep2](images/CreateFileStep2.png)
+
 Choose a location to save the file and click the Create button to finish creating the file.
 
 In the screenshot you will see a list of targets to add the target. This target list is important if you're developing a multiplatform SwiftUI. You have to decide if you want the file to be part of the iOS app, the Mac app, or both. The only files that should be added to unit test targets are unit test case classes and UI test case classes.
