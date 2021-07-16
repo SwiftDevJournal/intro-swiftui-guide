@@ -16,11 +16,35 @@ Click on the Mulitplatform button at the top of the New Project Assistant. Selec
 
 ## Step 2: Choose Project Options
 
+After clicking the Next button, it's time to choose project options.
+
 ![NewProjectAssistantStep2](images/CreateProjectStep2.png)
 
-Enter the name of the project in the Product Name text field. The project name is also the name of the app.
+SwiftUI projects have the following options:
 
-Choose a team.
+* Product name
+* Team
+* Organization identifier
+* Interface
+* Language
+* Use Core Data
+* Include tests
+
+Some of these project options may not be available in your version of Xcode. The options depend on the version of Xcode and the type of project you create.
+
+After choosing the project options, click the Next button to move on to the final step.
+
+### Product Name
+
+The product name is the project name as well as the app name. Enter the name of the project in the Product Name text field.
+
+### Team
+
+The Team menu lets you choose a development team. It's used for code signing and other things related to putting your app on the App Store.
+
+If you have a paid Apple developer account, there should be a menu item for you to choose. Choose None if there are no other items in the Team menu.
+
+### Organization Identifier
 
 Enter an identifier for your organization in the Organization Identifier text field. The identifier takes the following form:
 
@@ -28,17 +52,23 @@ Enter an identifier for your organization in the Organization Identifier text fi
 	
 Where `CompanyName` is the name of your organization. If you have no organization, you can use your name. There should be no spaces in the organization identifier.
 
+### Interface
+
 Choose SwiftUI from the Interface menu to use SwiftUI for your app. If you do not see an Interface menu, the project will use SwiftUI.
 
 You may see a Life Cycle menu in your version of Xcode. Choose SwiftUI App from that menu to use the SwiftUI app life cycle.
 
-Choose Swift from the Language menu.
+### Language
+
+Choose Swift from the Language menu. SwiftUI uses Swift, which doesn't give you a language choice.
+
+### Use Core Data
 
 The Use Core Data checkbox determines whether or not to use Core Data to store data in your app. Core Data is not for beginners so you will deselect this checkbox when starting to write SwiftUI apps.
 
-Selecting the Include Tests adds unit testing targets to the project. This guide does not cover unit testing, but it does no harm to include tests. Having unit test targets will not make your app bigger or run slower.
+### Include Tests
 
-Click the Next button to move on to the final step.
+Selecting the Include Tests adds unit testing targets to the project. This guide does not cover unit testing, but it does no harm to include tests. Having unit test targets will not make your app bigger or run slower.
 
 ## Step 3: Choose a Location to Save
 
