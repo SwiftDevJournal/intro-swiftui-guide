@@ -59,3 +59,6 @@ Xcode creates an app file and a content view when you create a new project.
 ## Adding a Group to the Project Navigator
 
 Select the project file from the project navigator on the left side of the project window, hold down the Control key, click, and choose New Group to add a group.
+
+## Adding Files to the Project
+
