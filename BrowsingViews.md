@@ -1,6 +1,8 @@
 # Browsing the SwiftUI View Library
 
-Hold down the Option key and click the Add button to open the SwiftUI view library. Option-clicking the Add button will keep the library window open until you close it.
+You started learning SwiftUI and want to see the available views. Use the SwiftUI view library in Xcode to browse the views you can use in a SwiftUI app.
+
+Hold down the Option key and click the Add button in the project window toolbar to open the SwiftUI view library. Option-clicking the Add button will keep the library window open until you close it.
 
 ![SwiftUIViewLibrary](images/SwiftUIViewLibrary.png)
 
