@@ -7,6 +7,7 @@ SwiftUI is Apple's new framework for making user interfaces and apps for Apple's
 * [Installing Xcode](Xcode)
 * [Creating SwiftUI Projects](CreatingProjects)
 * [Previewing SwiftUI Views](Previews)
+* [Browsing the SwiftUI View Library](BrowsingViews)
 
 ## Have a Question?
 
