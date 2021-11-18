@@ -16,7 +16,7 @@ The Stanford course is the same course computer science students at Stanford tak
 * [A SwiftUI Kickstart](https://editorscut.gumroad.com/l/swiftuikickstart) by Daniel Steinberg
 * Mark Moeykens' [SwiftUI books](https://www.bigmountainstudio.com/mastery)
 * [SwiftUI Apprentice](https://www.raywenderlich.com/books/swiftui-apprentice)
-* [SwiftUI Tutorials](https://www.raywenderlich.com/books/swiftui-by-tutorials)
+* [SwiftUI by Tutorials](https://www.raywenderlich.com/books/swiftui-by-tutorials)
 
 ## Articles and Tutorials
 
